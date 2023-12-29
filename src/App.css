@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.8;
+}
+.container {
+  min-height: 500px;
+  min-width: 500px;
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  color: white;
+  box-shadow: 2px 4px 4px #222;
+}
+
+.input {
+  flex-grow: 1;
+  width: 250px;
+  height: 40px;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+  border-radius:8px 0 0 8px;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0 1rem;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius:0 8px 8px 0;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: #008080;
+}
+
+.box-container { 
+  min-height: 200px;
+  min-width: 200px;
+  background: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.box { 
+  min-height: 50px;
+  min-width: 150px;
+  background: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  font-size: larger;
+  color: white;
+  box-shadow: 2px 4px 4px #aaaa;
+  margin: 2rem;
+}
+span {
+  font-size: 50px;
+  padding: 2px;
+}
+.icon {
+  font-size: 18px;
+}
